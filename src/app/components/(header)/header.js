@@ -48,7 +48,7 @@ export default function Header() {
                 {/* <NavbarItem name="Blog" active={false} /> */}
               </ul>
               <div className="nav_buttons cstm_nav_buttons">
-                <Link target="_blank" href="https://wa.me/+918850283085?text=Hey%21+I+have+a+requirement+for+MetaRizz+for+building+a" className="contact_btn cstm_contact_btn_mob">
+                <Link target="_blank" href="https://calendly.com/alisolanki/hi" className="contact_btn cstm_contact_btn_mob">
                   Contact us
                 </Link>
               </div>

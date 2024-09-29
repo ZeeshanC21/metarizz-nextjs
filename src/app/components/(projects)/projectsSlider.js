@@ -203,7 +203,7 @@ export default function ProjectsSlider() {
               </motion.h2>
               </div>
             </div>
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="project_slider_btn cstm_projectsslider_title_button_inside">
               <motion.a
                 href="#contact-section"
@@ -217,7 +217,7 @@ export default function ProjectsSlider() {
                 View all projects <FontAwesomeIcon icon={faArrowRight} />
               </motion.a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 

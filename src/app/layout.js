@@ -137,7 +137,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className} data-scroll-animation="false">
         {children}
         {/* WhatsApp Floating Button */}
-        <a href="https://wa.me/+918850283085?text=Hey%21+I+have+a+requirement+for+MetaRizz+for+building+a" target="_blank" className="whatsapp_float" title="Chat with us on WhatsApp">
+        <a href="https://wa.link/uapt4q" target="_blank" className="whatsapp_float" title="Chat with us on WhatsApp">
           {/* <img src="../../public/assets/img/whatsapp_float_icon.png" alt="W" /> */}<FontAwesomeIcon icon={faWhatsapp} size="2x" className="whatss_float_img"/>
         </a>
       </body>

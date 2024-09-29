@@ -77,8 +77,7 @@ export default function Footer() {
                     <Link
                       target="_blank"
                       className="cstm footer_contact_button"
-                      href="https://api.whatsapp.com/send?phone=+918850283085&text=
-      Hello, I wanted to talk to you about your services."
+                      href="https://wa.link/uapt4q"
                     >
                       Contact us
                     </Link>
@@ -106,7 +105,7 @@ export default function Footer() {
                       <a href="#our-services">Services</a>
                     </li>
                     <li>
-                      <a href="#contact-section">Contact Us</a>
+                      <a href="https://calendly.com/alisolanki/hi">Contact Us</a>
                     </li>
                   </ul>
                 </div>
