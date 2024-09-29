@@ -9,7 +9,7 @@ import {
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { motion } from "framer-motion";
-import Link from 'next/link'
+import Link from "next/link";
 
 import "./footer.css";
 
@@ -22,9 +22,7 @@ export default function Footer() {
           <div className="main_footer cstm_main_footer_mob">
             <div className="row">
               <div className="col-xl-5 col-md-6">
-                <div
-                  className="site_info logo_area"
-                >
+                <div className="site_info logo_area">
                   <img
                     src="assets/img/logo/metarizz_logo.svg"
                     alt=""
@@ -48,7 +46,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="col-xl-3 col-md-6 mid">
-                <div className="site_info" >
+                <div className="site_info">
                   <h5>Contact info</h5>
                   <ul className="loc_list list-unstyled">
                     <li>Mumbai, Bengaluru, Ahmedabad</li>
@@ -67,28 +65,30 @@ export default function Footer() {
                 </div>
               </div>
               <div className="col-xl-4 col-md-6 last">
-                <div className="site_info" >
+                <div className="site_info">
                   {/* <h5>Subscribe newsletter</h5> */}
                   {/* <form action="#contact-section" className="subscribe_form"> */}
-                    {/* <input
+                  {/* <input
                       type="email"
                       className="form-control"
                       placeholder="Enter your email address"
                     /> */}
-                    <button
-                      className="bg_btn_color"
-                      value="Contact Us"
+                  <button className="bg_btn_color" value="Contact Us">
+                    <Link
+                      target="_blank"
+                      className="cstm footer_contact_button"
+                      href="https://api.whatsapp.com/send?phone=+918850283085&text=
+      Hello, I wanted to talk to you about your services."
                     >
-                    <Link target="_blank" className="cstm footer_contact_button" href="https://wa.me/+918850283085?text=Hey%21+I+have+a+requirement+for+MetaRizz+for+building+a">
                       Contact us
                     </Link>
-                    </button>
+                  </button>
                   {/* </form> */}
                 </div>
               </div>
             </div>
           </div>
-          <div className="footer_bottom" >
+          <div className="footer_bottom">
             <div className="footer_bottom_list">
               <div className="row">
                 <div className="col-xl-6">
@@ -129,21 +129,9 @@ export default function Footer() {
         </div>
         <div className="shape_img">
           <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-            <img
-              src="assets/img/footer/1.png"
-              alt=""
-              className="one"
-            />
-            <img
-              src="assets/img/footer/2.png"
-              alt=""
-              className="two "
-            />
-            <img
-              src="assets/img/footer/3.png"
-              alt=""
-              className="three"
-            />
+            <img src="assets/img/footer/1.png" alt="" className="one" />
+            <img src="assets/img/footer/2.png" alt="" className="two " />
+            <img src="assets/img/footer/3.png" alt="" className="three" />
           </motion.div>
         </div>
       </footer>
